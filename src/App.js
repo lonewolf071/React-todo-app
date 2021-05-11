@@ -83,7 +83,7 @@ function App() {
 
   return(
     <div className="app">
-        <div id="Heading">React Todo App</div>
+        <div id="Heading">React App: To-do list</div>
         <div className="list">
           {taskList.map((todo, index) => (
             <Todo
